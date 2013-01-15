@@ -1,0 +1,10 @@
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\ironpythonengine.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\ironpythonengine.pdb
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\IronPython.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\IronPython.Modules.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\Microsoft.Dynamic.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\Microsoft.Scripting.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Release\ResolveAssemblyReference.cache
+D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Release\ironpythonengine.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Release\ironpythonengine.pdb

@@ -1,0 +1,11 @@
+D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Debug\ResolveAssemblyReference.cache
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.pdb
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\IronPython.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\IronPython.Modules.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.Dynamic.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.Scripting.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.Scripting.Metadata.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Debug\ironpythonengine.dll
+D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Debug\ironpythonengine.pdb
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\nunit.framework.dll
