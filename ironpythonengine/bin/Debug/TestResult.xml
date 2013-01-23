@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-01-15" time="09:12:52">
+<test-results name="D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-01-15" time="09:36:26">
   <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.1\bin" machine-name="AE359053" user="M308027" user-domain="PWUS" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll" executed="True" result="Failure" success="False" time="0.010" asserts="0">
+  <test-suite type="Assembly" name="D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll" executed="True" result="Failure" success="False" time="0.125" asserts="0">
     <results>
-      <test-suite type="Namespace" name="ironpythonengine" executed="True" result="Failure" success="False" time="0.009" asserts="0">
+      <test-suite type="Namespace" name="ironpythonengine" executed="True" result="Failure" success="False" time="0.125" asserts="0">
         <results>
-          <test-suite type="Namespace" name="test" executed="True" result="Failure" success="False" time="0.007" asserts="0">
+          <test-suite type="Namespace" name="test" executed="True" result="Failure" success="False" time="0.125" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="TestEngine" executed="True" result="Failure" success="False" time="0.005" asserts="0">
+              <test-suite type="TestFixture" name="TestEngine" executed="True" result="Failure" success="False" time="0.125" asserts="0">
                 <results>
-                  <test-case name="ironpythonengine.test.TestEngine.test_fail" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                  <test-case name="ironpythonengine.test.TestEngine.test_fail" executed="True" result="Error" success="False" time="0.125" asserts="0">
                     <failure>
                       <message><![CDATA[System.DivideByZeroException : Attempted to divide by zero.]]></message>
                       <stack-trace><![CDATA[at ironpythonengine.test.TestEngine.test_fail() in D:\visual studio projects\ironpythonengine\ironpythonengine\test\test_engine.cs:line 16

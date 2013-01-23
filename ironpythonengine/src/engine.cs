@@ -8,14 +8,18 @@ namespace ironpythonengine
 {
     public abstract class IronPythonEngine
     {
-        private readonly ScriptEngine engine;
+        protected readonly ScriptEngine engine;
+        protected readonly ScriptScope scope;
 
-        public ScriptScope get_scope() {return null;}
-        public ScriptEngine get_engine(){return null;}
+        public ScriptScope get_scope() { return this.scope; }
+        public ScriptEngine get_engine() { return this.engine; }
     }
 
     public class SecureIronPythonEngine : IronPythonEngine
     {
+
+
+
     }
 
     public class UnrestrictedIronPythonEngine : IronPythonEngine

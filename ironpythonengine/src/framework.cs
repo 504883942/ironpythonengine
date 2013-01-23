@@ -13,5 +13,6 @@ namespace ironpythonengine
         public void run(CodeBundle code_bundle) { }
         public void run(string script) { }
         public void run_file(string file_path) { }
+        public T call<T>() { return default(T); }
     }
 }

@@ -8,3 +8,4 @@ D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\Microsof
 D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Release\ResolveAssemblyReference.cache
 D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Release\ironpythonengine.dll
 D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Release\ironpythonengine.pdb
+D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Release\nunit.framework.dll
