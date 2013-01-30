@@ -9,3 +9,14 @@ D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.
 D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Debug\ironpythonengine.dll
 D:\visual studio projects\ironpythonengine\ironpythonengine\obj\Debug\ironpythonengine.pdb
 D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\nunit.framework.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.pdb
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\IronPython.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\IronPython.Modules.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.Scripting.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\nunit.framework.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\obj\Debug\ironpythonengine.dll
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\obj\Debug\ironpythonengine.pdb
