@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1002]D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll</TopNode>
-  <SelectedNode>[0-1001]ironpythonengine.test.TestEngine.test_fail</SelectedNode>
+  <TopNode>[0-1010]C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll</TopNode>
+  <SelectedNode>[0-1005]ironpythonengine.test.UnsecuredEngineTest</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1002]D:\visual studio projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll" Expanded="true" />
-    <Node UniqueName="[0-1003]ironpythonengine" Expanded="true" />
-    <Node UniqueName="[0-1004]ironpythonengine.test" Expanded="true" />
-    <Node UniqueName="[0-1000]ironpythonengine.test.TestEngine" Expanded="true" />
+    <Node UniqueName="[0-1010]C:\Users\dave\Documents\Visual Studio 2010\Projects\ironpythonengine\ironpythonengine\bin\Debug\ironpythonengine.dll" Expanded="true" />
+    <Node UniqueName="[0-1011]ironpythonengine" Expanded="true" />
+    <Node UniqueName="[0-1012]ironpythonengine.test" Expanded="true" />
+    <Node UniqueName="[0-1000]ironpythonengine.test.EngineTestFramework" Expanded="true" />
+    <Node UniqueName="[0-1005]ironpythonengine.test.UnsecuredEngineTest" Expanded="true" />
   </Nodes>
 </VisualState>
