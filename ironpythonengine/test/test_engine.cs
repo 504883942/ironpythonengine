@@ -10,7 +10,7 @@ namespace ironpythonengine.test
     using System.IO;
 
     
-    class EngineTestFramework
+    abstract class EngineTestFramework
     {
 
         protected IronPythonEngine ipe;
@@ -56,12 +56,9 @@ blah()
         
         }
 
-        public void perform_socket_access(string ip, string port) {
-           
-        }
-
         public string perform_dns_service() {
-            return ipe.get_engine().Execute<string>("socket.gethostbyname('localhost')");
+            return ipe.get_engine().Execute<string>(@"import socket
+socket.gethostbyname('localhost')");
         }
 
         public void perform_read_file_access(string path) {
@@ -94,17 +91,52 @@ with open(the_path) as f:
 
     }
 
-    [TestFixture]
-    class UnsecuredEngineTest : EngineTestFramework {
 
+
+    abstract class SecuredEngineTests : EngineTestFramework {
+
+        [Test]
+        public void test_dns_service() {
+            Assert.Throws(typeof(System.Security.SecurityException),
+                           delegate { this.perform_dns_service(); });
+        }
+    }
+
+    [TestFixture]
+    class SecuredEngineTestNoFileAccess : SecuredEngineTests {
         [TestFixtureSetUp]
         public void setup() {
-
-            this.ipe = new ironpythonengine.UnrestrictedIronPythonEngine();
+            this.ipe = new ironpythonengine.SecureIronPythonEngine();
         }
 
     }
 
+    [TestFixture]
+    class SecuredEngineTestYesFileAccess : SecuredEngineTests {
+        [TestFixtureSetUp]
+        public void setup() {
+            this.ipe = new ironpythonengine.SecureIronPythonEngine(
+                new string[] { System.IO.Path.GetTempPath() }
+                );
+        }
+
+    }
+
+    
+    [TestFixture]
+    class UnsecuredEngineTest : EngineTestFramework {
+        [TestFixtureSetUp]
+        public void setup() {
+            this.ipe = new ironpythonengine.UnrestrictedIronPythonEngine();
+        }
 
 
+        [Test]
+        public void test_dns_service() {
+            string local_ip = this.perform_dns_service();
+            Assert.AreEqual(local_ip, "127.0.0.1");
+        
+        }
+
+    }
 }
